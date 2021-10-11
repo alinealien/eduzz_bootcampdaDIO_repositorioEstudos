@@ -16,8 +16,3 @@
 * Grupo técnico do ECMA <em>International</em>, que é a organização que publica as especificações como padrão. O JavaScript é a implementação desses padrões
 * Links: https://tc39.es/ | https://github.com/tc39/proposals/
 
-
-
-##### Fluxo de Proposta
-
-* Stage 0: strawman |  
