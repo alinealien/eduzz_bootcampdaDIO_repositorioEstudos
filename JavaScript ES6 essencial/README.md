@@ -82,5 +82,25 @@
 
 
 
+#### Closure
 
+* Capacidade de uma função lembrar do ambiente q ela foi criado. Escopo.
+
+
+
+#### Currying
+
+* Tecnica de transformar uma função com n parametros em apenas uma função que recebe um parametro e cada parameto vai retornar uma nova funcao.
+
+  
+
+#### Hoisting
+
+* Levantar algo. Ocorre em Js em declarações de variaveis e funções, as declarações (var e function) são elevadas ao escopo em que ela esta (seja bloco, função ou, global). Dois tipos de Hoisting: De variaveis e Funções. Onde a de variaveis so eleva a criação da variavel e nao sua atribução. Ja a de função é elevada ao topo como um todo, ate a sua assinatura.
+
+  
+
+#### Imutabilidade
+
+* Conceito de linguagem funcional. Onde os dados nunca vão mudar. São imutaveis. Se precisar alterar, tera que criar uma nova. OBS: Um objeto nunca sera atualizado. Ele vai ser copiado e iremos alterar o que queremos.
 
