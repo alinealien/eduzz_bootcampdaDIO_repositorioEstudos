@@ -103,4 +103,11 @@
 #### Imutabilidade
 
 * Conceito de linguagem funcional. Onde os dados nunca vão mudar. São imutaveis. Se precisar alterar, tera que criar uma nova. OBS: Um objeto nunca sera atualizado. Ele vai ser copiado e iremos alterar o que queremos.
+* Passar por referencia é quando alteramos eles, vai esta alterando o mesmo local que a variavel aponta.
+
+
+
+### Tipos e Variáveis
+
+* Três formas de criar (armazenar um valor) : **var** : pioneiro //  **let - const** : com eles foi introduzido o escopo de bloco.
 
