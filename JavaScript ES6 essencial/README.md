@@ -109,5 +109,15 @@
 
 ### Tipos e Variáveis
 
-* Três formas de criar (armazenar um valor) : **var** : pioneiro //  **let - const** : com eles foi introduzido o escopo de bloco.
+* **Sobre Variáveis:** Três formas de criar (armazenar um valor) : **var** : pioneiro //  **let - const** : com eles foi introduzido o escopo de bloco.
+* **String** : TEXTOS.
+* **Number** : NUMEROS.
+* **Boolean**: TRUE / FALSE
+* **Null**: NULOS
+* **Undefined**: INDEFINIDOS (HOISTING)
+* **Symbol**: SIMBLOS QUE PERMITEM A CRIAÇÃO DE VALORES UNICOS
+* **Object**: OBJETOS. Permite que registremos atributos ou propriedades deles.
+* **Function**: TAMBÉM UM TIPO DE OBJETO MAS PERMITE QUE NOSSO OBJETO SEJA CHAMADO.
+* **Array**: TAMBÉM OBJETO, MAS ELE TEM RELAÇAO COM OS ITENS(FILHOS)
 
+ DELES. CONSEGUEM ORGANIZAR OS ITENS.
