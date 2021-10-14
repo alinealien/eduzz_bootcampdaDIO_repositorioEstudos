@@ -121,3 +121,25 @@
 * **Array**: TAMBÉM OBJETO, MAS ELE TEM RELAÇAO COM OS ITENS(FILHOS)
 
  DELES. CONSEGUEM ORGANIZAR OS ITENS.
+
+
+
+### Operadores 
+
+#### Operadores Bínarios: operando1 operador operando2 - 1+ 2
+
+#### Operadores Unário: operador1 operador / operador operando1 - x++ / ++x
+
+* Aritmetricos:
+* Atribuição:
+* Comparação:
+* Condicional:
+* Lógicos:
+* Spread:
+* Outros:
+
+### Estruturas Condicionais 
+
+* If:
+* else:
+* else if:
