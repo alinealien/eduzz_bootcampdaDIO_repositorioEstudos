@@ -143,3 +143,76 @@
 * If:
 * else:
 * else if:
+
+
+
+### Estruturas de Repetição
+
+* for : Para.
+
+* while: 
+
+* do... while
+
+* for... in
+
+* continue: permite que no processo de interação item a item, dependendo da condiçao do primeiro indice, ele pula o segundo item e vai para o terceiro (Caso a condição do item seja 1 até 3 )
+
+* break: Mata o laço. Qual quer um (for, while, do...while, for...in.
+
+  
+
+
+
+### Introdução a Orientação a Objetos
+
+* Herança: Baseada em prototipos. Prototype. Armazena as definições do nosso objeto. ____proto______ . Constructor(tipo): Que é criado um prototype e nessa var armazenamos a referencia dela por esse __proto__
+
+  .......................................
+
+  __'use strict'
+
+  const myText = 'Hello prototype';
+
+  myTest.split('  '); // <- __
+
+  ..........................................................
+
+  'use strict'
+
+  const mytext = String('Hello prototype');
+
+  console.log(myText.-____proto____.)
+
+  // f split() { [native code]}
+
+  ..............................................................
+
+  'use strict'
+
+  console.log(String.prototype.split)
+
+  // f split() { [native code]}
+
+  ............................................................
+
+* Classes
+
+* Modificadores de acesso
+
+* Encapsulamento
+
+* Static:
+
+
+
+### Design Patterns
+
+* Design Patterns ou padrão de projetos são soluções generalistas para problemas recorrentes durante o desenvolvimento de um software. Não se trata de um framework ou um código pronto, mas de uma definição de alto nível de como um problema comum pode ser solucionado.
+* Using Pattern Languages for Onject-oriented Programs - 1987. Kent Beck e Ward Cunningham. 5 padrões de projetos.
+* Design Patterns: Elements of Reusable Object-Oriented Software - 1994 - Grang of four (GoF) - Erch Gamma, Richard Helm, Ralph Johnson e John Vlissides.
+* Tipos: Criação - Estruturais - Comportamentais
+* Padrões de Criação: Os padrões de criação são aqueles que abstraem e/ou adiam o processo criação dos objetos. Eles ajudam a tornar um sistema independente de como seus objetos são criados, compostos e representados.
+
+
+
