@@ -16,6 +16,13 @@
 
 ### Aula: Desenvolvimento Avançado com JavaScript ES6
 
+* Funções Avançadas do ES6
+* Aplicando Conceitos Rest, Spread Operator e Destructuring
+* Introdução a Generators
+* Aplicando Conceitos Promisses e Fetch
+* Conceitos Aplicados a qualidade de código e automação de testes em JS
+* Tratamentos e Exceções
+
 
 
 
