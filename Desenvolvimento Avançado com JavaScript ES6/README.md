@@ -10,4 +10,7 @@
 * Aplicando conceitos Rest, Spread Operator e Destructuring:
   1. Rest e Spread Operator
   2. Destructuring em ReactJS
+* Introdução a Generators
+  1. Symbols e Iterators
+  2. Generators
 
