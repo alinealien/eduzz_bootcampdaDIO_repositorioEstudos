@@ -1,6 +1,6 @@
 // EventEmitter
 
-const EventEmitter = require(' events ');
+const EventEmitter = ' events ';
 
 const emitter = new EventEmitter();
 

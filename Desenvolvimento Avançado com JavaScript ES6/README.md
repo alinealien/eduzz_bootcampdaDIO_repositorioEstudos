@@ -18,3 +18,9 @@
   2. **Callback e Promises**
   3. **Fetch, Async/Await e EventEmitter**
   4. **Aplicando e Praticando os Conceitos** 
+* Conceitos aplicados a qualidade de código e automação de testes em JS
+  1. **Introdução e conceitos de aula**
+  2. **Testes, TDD, BDD**
+  3. **Conheça Mocha, Chai e Sinon**
+  4. **Veja como trabalhar com Chai - uma excelente biblioteca**
+  5. **Desenvolvendo códigos com Sinon**

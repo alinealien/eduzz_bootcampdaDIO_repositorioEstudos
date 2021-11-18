@@ -1,0 +1,22 @@
+{
+    "name": "nodemodulos",
+    "version": "1.0.0",
+    "description": "projeto de estudos DIO /Eduzz Bootcamp",
+    "main": "index.js",
+    "scripts": {
+      "start": "npm run dev ",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "eduzz",
+      "dio",
+      "bootcamp"
+    ],
+    "author": "\"Aline \\ <alinebdantunes@gmail.com\\> (https://github.com/alinealien)",
+    "license": "ISC",
+  
+    "dependencies": {
+      "axios": "^0.24.0"
+    }
+  }
+  
