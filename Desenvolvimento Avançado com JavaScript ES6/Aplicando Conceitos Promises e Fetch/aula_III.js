@@ -1,11 +1,23 @@
 // EventEmitter
 
-const EventEmitter = ' events ';
+const eventEmitter = "events ";
 
-const emitter = new EventEmitter();
+class Users extends eventEmitter {
+    userLogged(data){
+        setTimeout(() => {
+        this.emit('Used Logged', data);
+    }, 2000);
+}
+}
 
-emitter.on('User logged', data => {
+const users = new Users();
+
+/*users.once('User logged', data => {
+    console.log(data);*/
+
+users.once('User logged', data => {
     console.log(data);
 });
 
-emitter.emit('User Logged', { user: 'Aline Antunes'});
+users.userLogged({ user: 'Aline Antunes'});
+users.userLogged({ user: 'Aline Antunes'});
