@@ -1,0 +1,65 @@
+//import React, { Fragment } from "react"
+import button from ".button"
+import React  from "react"
+import ReactDOM from "react-dom"
+import "./styles.css"
+
+//Aula I
+
+/*function sum(a, b){
+    return a + b
+}
+
+function primeiroJSX(){
+    return (
+
+        <div className="teste">
+          And I know not which I should follow... Shadow or Song 
+          <h1>Soma: {sum(10, 20)}</h1>
+        </div>
+    )
+}
+
+const App = () => {
+
+    return (
+        <div className="App">
+            {primeiroJSX()}
+        </div>
+    )
+}*/
+
+// AULA II - REINDERIZAÇÃO
+/*
+const element = 'Digital Innovation One'
+const element2 = <h1> And I know not which I should follow... Shadow or Song</h1>
+
+function App() {
+    return(
+    <div className="teste">
+        {element}
+        {element2}
+    </div>
+    )
+} */
+
+// AULA II - COMPONENTES E PROPS
+
+function  soma(a, b) {
+    alert(a+b);
+    
+}
+
+const App = () => {
+    const 
+    return (
+        <div className="App">
+            Olá Disgraça, dÊ certo!! 
+            <button onClick={} name="Aline Antunes" />
+        </div>
+    )
+}
+
+//rootElement: é onde ele vai reinderizar a aplicação react
+const rootElement = document.getElementById("root")
+ReactDOM.render(<App />, rootElement)
