@@ -1,5 +1,5 @@
 //import React, { Fragment } from "react"
-import button from ".button"
+import Button from "./Button"
 import React  from "react"
 import ReactDOM from "react-dom"
 import "./styles.css"
@@ -50,12 +50,12 @@ function  soma(a, b) {
     
 }
 
-const App = () => {
-    const 
+function App() {
+    
     return (
         <div className="App">
             Olá Disgraça, dÊ certo!! 
-            <button onClick={} name="Aline Antunes" />
+            <Button onClick={() => soma(10, 20)} name="Aline Antunes" />
         </div>
     )
 }
