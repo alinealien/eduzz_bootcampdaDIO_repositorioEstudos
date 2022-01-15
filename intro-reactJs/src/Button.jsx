@@ -8,4 +8,4 @@ function Button(props) {
     )
 }
 
-export default <Button></Button>
+export default Button
