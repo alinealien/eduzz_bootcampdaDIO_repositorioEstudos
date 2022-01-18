@@ -85,3 +85,17 @@ Extração de Componentes;
 
 - O estado é apenas local ao componente e caso seja necessário enviar algum atributo para outro então é feito via **props**.
 
+##### Ecossistemas
+
+- React Router;
+- Redux;
+- Material UI;
+- Ant-Desing;
+- Gastsby;
+- Jest;
+- React i18n Next;
+
+
+
+
+

@@ -1,5 +1,5 @@
-import React, { Fragment } from "react"
-import Button from "./Button"
+//import React, { Fragment } from "react"
+//import Button from "./Button"
 //import ComponentA from "./ComponentA"
 //import ComponentB from "./ComponentB"
 //import React  from "react"
@@ -79,6 +79,15 @@ class App extends Component {
             copo: 'água'
         }
     }
+    
+    componentDidMount(){
+        window.setTimeout(() => {
+            this.setState({
+                copo: 'suco'
+            })
+        }, 3000)
+    }
+
     alterarCopo = () => {
         this.setState({
                 copo: 'refrigerante'
@@ -93,7 +102,7 @@ class App extends Component {
         return(
             <div>
                 <h1> { clock } </h1>
-                <Button onClick ={alterarCopo()}>{copo}</Button>
+                <button onClick = {() => this.alterarCopo()}><h1>{copo}</h1></button>
             </div>
         )
     }
