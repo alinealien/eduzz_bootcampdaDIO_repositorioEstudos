@@ -1,8 +1,9 @@
-//import React, { Fragment } from "react"
+import React, { Fragment } from "react"
 import Button from "./Button"
-import ComponentA from "./ComponentA"
-import ComponentB from "./ComponentB"
-import React  from "react"
+//import ComponentA from "./ComponentA"
+//import ComponentB from "./ComponentB"
+//import React  from "react"
+import React, { Component } from "react" //Se for utilizar classe o {Component} é obrigatório
 import ReactDOM from "react-dom"
 import "./styles.css" //lembrar de importar os componentes, etc..
 
@@ -43,11 +44,11 @@ function App() {
         {element2}
     </div>
     )
-} */
+} 
 
 // AULA II - COMPONENTES E PROPS
 
-function  soma(a, b) {
+/* function  soma(a, b) {
     alert(a+b);
     
 }
@@ -64,6 +65,39 @@ function App() {
         </ComponentA>
         </div>
     )
+}*/
+
+// AULA - ECOSISTEMAS DO REACTJS
+
+class App extends Component {
+    
+    constructor(props) {
+        super(props)
+
+        this.state = {
+            clock: 1000,
+            copo: 'água'
+        }
+    }
+    alterarCopo = () => {
+        this.setState({
+                copo: 'refrigerante'
+            })
+
+        //this.state.copo ='refrigerante'
+
+    }
+
+    render() {
+        const { clock, copo } = this.state
+        return(
+            <div>
+                <h1> { clock } </h1>
+                <Button onClick ={alterarCopo()}>{copo}</Button>
+            </div>
+        )
+    }
+
 }
 
 //rootElement: é onde ele vai reinderizar a aplicação react

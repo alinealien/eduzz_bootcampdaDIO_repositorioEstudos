@@ -71,3 +71,17 @@ Props;
 Composição de Componentes;
 
 Extração de Componentes;
+
+
+
+#### ESTADO E CICLO DE VIDA
+
+- Inicialização 
+- Montagem  
+- Atualização  
+- Desmontagem 
+
+* Nenhum componente pai ou filho devem saber se o outro componente possui estado ou não.
+
+- O estado é apenas local ao componente e caso seja necessário enviar algum atributo para outro então é feito via **props**.
+
