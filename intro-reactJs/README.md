@@ -97,5 +97,42 @@ Extração de Componentes;
 
 
 
+#### WEBPACK
+
+- É um **module bundler** (um empacotador de módulos para aplicações JS)
+- Gerar bundler que será utilizado no HTML, em ES5
+
+Suporte
+
+- Fontes;
+- CSS;
+- Imagens;
+- HTML;
+- JS;
+- Plugins;
+
+Principais Conceitos do Webpack:
+
+- Entry - Utilizando grafo, o Webpack precisa de um ponto de entrada para buscar todos os módulos e dependências.
+- Output - É para determinar quais são os bundlers que o Webpack irá emitir.
+- Loaders - É para permitir que o Webpack gerencie arquivos que não são JS.
+- Plugins - Plugins podem ser utilzados para otimização de pacotes, minificação, injeção de scripts e muito mais.
+
+##### Configuração
+
+- Mode - Utilizados para a bordagem de configuração zero. É possível configurar módulos como **production, development** ou **none**.
+- **Production** - Trás otimizações internas.
+- **Development** - É executado com três plugins: UglifyJsPlugin, ModuleConcatenationPlugin e NoEmitOnErrorsPlugin;
+
+##### Criação do arquivo webpack.config.js
+
+npm i -D webpack webpack-cli
+
+"build": "webpack --mode production"
+
+npm i @babel/core babel-loader @babel/present-env @babel/present-react --save-dev
+
+
+
 
 
