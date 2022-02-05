@@ -1,4 +1,5 @@
-const path = require('path');   
+//
+const path = require('path');  //pega o diretorio padrão 
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 

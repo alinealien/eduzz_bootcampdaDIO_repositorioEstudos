@@ -126,13 +126,56 @@ Principais Conceitos do Webpack:
 
 ##### Criação do arquivo webpack.config.js
 
-npm i -D webpack webpack-cli
+1- Instalar pacote Json.
 
-"build": "webpack --mode production"
+2.1 - npm instal --save-dev webpack webpack-cli
 
-npm i @babel/core babel-loader @babel/present-env @babel/present-react --save-dev
-
-
+2. 2 - No terminal: npm i -D webpack webpack-cli (OBS: Mesmo comando acima.)
 
 
+
+3 - Criar pacote **webpack.config.js** 
+
+4 - Adicionar no package.json em scripts: Serão colocados os comandos que serão executados no projeto (buil, modo de desenvolvimento, produção, none, executar testes, etc...) - Dar o comando npm run build para ver se n gerou com erros (ele vai gerar uma pasta **dist** que foi a colocada no path). "build": "webpack --mode production"
+
+5- npm i -D @babel/core babel-loader @babel/present-env @babel/present-react --save-dev
+
+Como vai executar uma aplicação de javascript com react - importar (React e ReactDom)
+
+
+
+Para usar o preset :
+
+npm i react react-dom
+
+npm i -D babel-preset-react
+
+1. criar .babelrc (vai ler os presets e plugins)
+
+   {
+
+   "presets": [
+
+   "@babel/preset-env"
+
+   "@babel/preset-react"
+
+   ]
+
+   }
+
+2. npm run dev
+
+3. intalar pluguin do HtmlWebPackPlugin. (criar arquivo .html) .... npm i -D html-webpack-plugin html-loader
+
+
+
+#### Renderização Condicional
+
+"Em react, você pdoe criar componentes distintos que encapsulam o comportamento que você precisa. Então, vocÊ pode renderizar apenas alguns dos elementos, dependendo do estado da sua aplicação"
+
+- Variaveis de Elementos
+- If inline com o Operador Lógico &&
+- If-Else inline com Operador Condicional
+- Evitando que um Componente seja Renderizado
 
