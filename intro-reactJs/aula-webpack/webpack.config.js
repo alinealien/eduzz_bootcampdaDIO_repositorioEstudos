@@ -1,22 +1,20 @@
-//
 const path = require('path');  //pega o diretorio padrão 
 const HtmlWebPackPlugin = require("html-webpack-plugin");
-
-
 
 module.exports = {
     devtool: 'source-map',
     mode: "production",
     entry: './src/index.js',
     output: {
-        filename: '[name].bundle.js',
      path: path.resolve(__dirname, 'dist'),
-    
+     filename: 'bundle.js',
 },
+
 performance: {
     maxEntrypointSize: 512000,
     maxAssetSize: 512000
 },
+
 module: {
     rules:[
         {
@@ -28,11 +26,11 @@ module: {
         }
     ]
 },
+
 plugins:[
     new HtmlWebPackPlugin({
         template: "./src/index.html",
         filename: "./index.html"
-    }),
-
+  })
   ]
 }

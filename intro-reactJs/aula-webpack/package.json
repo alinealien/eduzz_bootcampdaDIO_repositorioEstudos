@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf ./dist && webpack -p",
+    "build": "webpack --mode production",
     "dev": "webpack --mode development",
-    "start:dev": "webpack-dev-server"
+    "start": "webpack-dev-server --open --mode development",
+    "eslint": "eslint ./src/*.js"
   },
   "author": "",
   "license": "ISC",
@@ -29,6 +30,8 @@
     "webpack-dev-server": "^4.7.3"
   },
   "dependencies": {
+    "@types/react-router": "^5.1.18",
+    "index.js": "^0.0.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }
